@@ -14,7 +14,7 @@ class ToDoList(BaseModel):
     id: str
     title: str
     description: str = None
-    completed: bool
+    complete: bool
 
 
 def getdb():
